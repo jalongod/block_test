@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E77AE3941FF1347D00580843 /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = E77AE3931FF1347D00580843 /* TestClass.m */; };
+		E77AE3971FF134AE00580843 /* MYObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E77AE3961FF134AE00580843 /* MYObject.m */; };
+		E77AE39A1FF142CF00580843 /* Test1.m in Sources */ = {isa = PBXBuildFile; fileRef = E77AE3991FF142CF00580843 /* Test1.m */; };
 		E790E69C1FD96A50001EFB89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E790E69B1FD96A50001EFB89 /* main.m */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +26,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E77AE3921FF1347D00580843 /* TestClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestClass.h; sourceTree = "<group>"; };
+		E77AE3931FF1347D00580843 /* TestClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestClass.m; sourceTree = "<group>"; };
+		E77AE3951FF134AE00580843 /* MYObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYObject.h; sourceTree = "<group>"; };
+		E77AE3961FF134AE00580843 /* MYObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYObject.m; sourceTree = "<group>"; };
+		E77AE3981FF142CF00580843 /* Test1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test1.h; sourceTree = "<group>"; };
+		E77AE3991FF142CF00580843 /* Test1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test1.m; sourceTree = "<group>"; };
 		E790E6981FD96A50001EFB89 /* weak_strong */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = weak_strong; sourceTree = BUILT_PRODUCTS_DIR; };
 		E790E69B1FD96A50001EFB89 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				E790E69B1FD96A50001EFB89 /* main.m */,
+				E77AE3921FF1347D00580843 /* TestClass.h */,
+				E77AE3931FF1347D00580843 /* TestClass.m */,
+				E77AE3951FF134AE00580843 /* MYObject.h */,
+				E77AE3961FF134AE00580843 /* MYObject.m */,
+				E77AE3981FF142CF00580843 /* Test1.h */,
+				E77AE3991FF142CF00580843 /* Test1.m */,
 			);
 			path = weak_strong;
 			sourceTree = "<group>";
@@ -119,7 +134,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E77AE3971FF134AE00580843 /* MYObject.m in Sources */,
+				E77AE3941FF1347D00580843 /* TestClass.m in Sources */,
 				E790E69C1FD96A50001EFB89 /* main.m in Sources */,
+				E77AE39A1FF142CF00580843 /* Test1.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
